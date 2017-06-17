@@ -47,7 +47,7 @@ class trueloveViewController: UIViewController {
     
     @IBAction func sendbtn(_ sender: AnyObject) {
    
-     let starin:String = self.starin.text!
+        let starin:String = self.starin.text!
     
     if starin == "Virgo" && gender.selectedSegmentIndex == 0 && travel.isOn == true && myhtvalue == 184 {
     ansyes.isHidden = false

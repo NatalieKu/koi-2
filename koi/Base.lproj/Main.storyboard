@@ -136,10 +136,6 @@
                                 <rect key="frame" x="118" y="459" width="166" height="218"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="message_gomennasai" translatesAutoresizingMaskIntoConstraints="NO" id="KZq-P8-wM7">
-                                <rect key="frame" x="82" y="650" width="227" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5I-rg-csZ">
                                 <rect key="frame" x="325" y="310" width="69" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -156,13 +152,17 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="message_gomennasai" translatesAutoresizingMaskIntoConstraints="NO" id="KZq-P8-wM7">
+                                <rect key="frame" x="82" y="650" width="227" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.93252569437026978" green="0.6893913745880127" blue="0.71731340885162354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="恋の占い" id="5Sc-KH-kXA"/>
                     <connections>
                         <outlet property="ansyes" destination="90t-Qn-Oef" id="Pp3-fM-g7z"/>
-                        <outlet property="ansyes2" destination="L45-MP-U3Y" id="cIB-1i-Jia"/>
+                        <outlet property="ansyes2" destination="L45-MP-U3Y" id="Bp0-pZ-3NP"/>
                         <outlet property="base" destination="1Ex-LK-YIm" id="hcK-ar-k3f"/>
                         <outlet property="gender" destination="2y1-LC-7fH" id="bgR-Dn-Pri"/>
                         <outlet property="myheight" destination="m5I-rg-csZ" id="sth-og-Hkb"/>
